@@ -2,11 +2,19 @@ import React from 'react';
 
 export default function Contact() {
   return (
-    <div>
-      <h1>Contact Page</h1>
-      <p>
-      Hello is this the contact page?
-      </p>
-    </div>
+   <form>
+     <label for="firstname">First name:</label>
+     <input type="text" id="firstname" name="firstname"></input>
+     <label for="lastname">Last name:</label>
+     <input type="text" id="lastname" name="lastname"></input>
+     <label for="email">email:</label>
+     <input type="email" id="email" name="email"></input>
+
+
+     <label for="subject">Subject</label>
+  
+
+    
+     </form>
   );
 }
