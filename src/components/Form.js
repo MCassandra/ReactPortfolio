@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import '../styles/style.css';
 
-// Here we import a helper function that will check if the email is valid
+// check if user inputed valid email
 import { checkPassword, validateEmail } from '../components/utils/helpers';
 
 function Form() {
