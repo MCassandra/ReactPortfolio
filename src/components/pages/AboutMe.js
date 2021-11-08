@@ -1,12 +1,12 @@
 import React from 'react'
-import headshot from '../assets/'
+import headshot from '../assets/IMG_1183.jpeg'
 
 export default function AboutMe() {
   return (
     <div>
       <h1>Hello, There!</h1>
       <p>
-      <img src={headshot}/>
+      <img src={headshot} alt="headshot" width="300" height="300"/>
       </p>
       <p>
         I am a scientist transitioning my career into web developement. I have worked with animals for over 10 years.

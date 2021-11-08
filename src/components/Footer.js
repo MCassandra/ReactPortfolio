@@ -3,12 +3,15 @@ import React from 'react';
 const styles = {
     card: {
         background: '#f9b713',
-        position: 'absolute',
+        position: 'fixed',
         bottom: 0,
-        width: '100%'
+        width: '100%',
+        
+        
+        
 
     },
-}
+};
 
 function Footer() {
     return (
